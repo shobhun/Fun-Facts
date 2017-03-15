@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/textviewtop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:alpha="0.3"
+        android:layout_margin="15dp"
+        android:text="Did you know ?" />
+
+    <ImageView
+        android:id="@+id/shareimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/share_variant"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/textviewfact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Bandra Worli Sealink has steel wires equal to the earth's circumference"
+        android:textStyle="normal"
+        android:textSize="32sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnNextFact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show next fact"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="25dp"
+        android:padding="5dp"
+        android:alpha="0.3"/>
+
+</RelativeLayout>
